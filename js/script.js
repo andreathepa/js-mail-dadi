@@ -7,11 +7,11 @@
 // vattelapesca@gmail.com
 
 
-// elaborare il messaggio
+// elaborare il messaggio di risposta
 let namemail = ['tizio@gmail.com', 'caio@gmail.com', 'semprogno@gmail.com', 'vattelapesca@gmail.com'];
 
 
-let email = prompt("Per favore inserisci la tua email");
+let email = prompt("Per favore inserisci la tua email per giocare al gioco dei dadi");
 
 console.log(email);
 
@@ -27,10 +27,14 @@ for(let i=0; i<namemail.length; i++){
 }
 
 if(flag === true){
-    console.log("Complimenti l'email è presente nei nostri sistemi");
-    message = "Complimenti l'email è presente nei nostri sistemi"
+    // console.log("Complimenti l'email è presente nei nostri sistemi, ora puoi giocare");
+    message = ("Complimenti l'email è presente nei nostri sistemi, ora puoi giocare");
 }
 
 else{
-    console.log("Spiacenti l'email inserita non è presente nei nostri sistemi");
+    // console.log("Spiacenti l'email inserita non è presente nei nostri sistemi");
+    message = ("Spiacenti l'email inserita non è presente nei nostri sistemi");
+
 }
+
+document.getElementById('output').innerText = message;
