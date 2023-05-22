@@ -12,3 +12,12 @@ Consigli del giorno:
 3. si ma noi cosa vogliamo fare?
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+
+
+Creare uno spazio in cui l'utente possa scrivere il proprio nome
+
+fare in modo che ciò che ha scritto l'utente venga riconosciuto 
+
+elaborare il messaggio
