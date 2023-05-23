@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(104, 104, 226);
+}
+
 .green{
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
 }
 
 .blue{

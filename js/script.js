@@ -42,28 +42,34 @@ document.getElementById('output').innerText = message;
 
 //////////////////////////////////////////////////////////
 
-let user = document.getElementById("output_user").innerHTML = Math.floor(Math.random() * 7);
 
-console.log(user)
+let start = document.getElementById('start')
 
-let pc = document.getElementById("output_pc").innerHTML = Math.floor(Math.random() * 7);
+start.addEventListener('click', function(){
+
+    let user = document.getElementById("output_user").innerHTML = Math.floor(Math.random() * 7);
 
 
-if (user > pc){
+    let pc = document.getElementById("output_pc").innerHTML = Math.floor(Math.random() * 7);
 
-    message = ("Hai vinto");
-    console.log(message);
-}
 
-else if (user == pc){
-    message = ("Hai pareggiato");
-    console.log(message);
+    if (user > pc){
 
-}
+        alert("Hai vinto");
+    }
+    
+    else if (user == pc){
+        alert("Hai pareggiato");
+    
+    }
+    
+    else{
+        alert("Hai perso");
+    
+    }
+    
 
-else{
-    message = ("Hai perso");
-    console.log(message);
+})
 
-}
+
 
